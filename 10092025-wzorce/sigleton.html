@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singleton 1</title>
+</head>
+<body>
+    <script>
+        class Singleton {
+            static counter = 0;
+            constructor() {
+                if(Singleton.instance) return Singleton.instance;
+                Singleton.instance=this;
+            }
+            logger(message){
+                console.log(`LOGL ${new Date().toISOString()}: ${message}`);
+            }
+            error(message){
+                console.error(`ERROR: ${new Date().toISOString()}: ${message}`)
+            }
+        }
+        const singleton1 = new Singleton();
+        const singleton2 = new Singleton();
+        const singleton3 = new Singleton();
+        const singleton4 = new Singleton();
+
+        console.log(Singleton.counter)
+        singleton1.logger("To jest singleton")
+        singleton3.error("error")
+        console.log(Singleton.counter)
+        console.log(singleton1 == singleton2 && singleton3 == singleton2)
+
+
+    </script>
+</body>
+</html>

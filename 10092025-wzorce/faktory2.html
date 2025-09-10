@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//clasy które trafia do fabryki
+        class Notification{
+            constructor(message){
+                this.message = message
+            }
+            send(){
+                console.log(`Wysyłam powiadomienie: ${this.message}`)
+            }
+        }
+        class EmailNotification extends Notification{
+            send(){
+                console.log(`Wysyłam powiadomienie: ${this.message}`)
+            }
+        }
+        class SmsNotification extends Notification{
+            send(){
+                console.log(`Wysyłam powiadomienie: ${this.message}`)
+            }
+        }
+        class PushNotification extends Notification{
+            send(){
+                console.log(`Wysyłam powiadomienie: ${this.message}`)
+            }
+        }
+
+        //fabryka
+        class Notificationfabrick{
+            static createNotification(type,message){
+                switch(type){
+                    case "email":
+                        return new EmailNotification(message);
+                        break;
+                    case "sms":
+                        return new SmsNotification(message);
+                        break;
+                    case "push":
+                        return new PushNotification(message);
+                        break;
+                    default:
+                        throw new Error("Nieznany typ powiadomienia");
+                    break;
+                    
+                }
+            }
+        }
+        const email = Notificationfabrick.createNotification("email","rizz")
+        const push = Notificationfabrick.createNotification("email","rizz")
+        const email = Notificationfabrick.createNotification("email","rizz")
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+wzorce zastosowanie do dowolnego jeztka/technologi
+
+SIGLETON - jedna instancja globalna
+Faktory - elestyczne tworzenie obiektów 
+oberver - powiadamianie wielu obiektów o zmianach
+decorator - dodawanie funkcjonalnosci do obiektow dynamicznie
+strategu- wymiania algorytmu w runtime bez zmiany klienta
+fasada - służt do uproszczania interfajsu skomplikowaniego systemu 
