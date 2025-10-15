@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text = "arkadiusz waliczek"
+        let shift = 3;
+        let result = ""
+        for(let i =0;i<text.length; i++){
+            let c = text[i]
+            if(/[a-zA-Z]/.test(c)){
+                let code = text.charCodeAt(i) //zamieniam na ascii znaku np a-65
+                let offset = (c===c.toUpperCase()) ? 65 : 97 // sprawdzam czy duza czy maa litera i wyznaczam poczatek alfabetu jako ascii
+                let index = code - offset //wyznaczam index dla poszczegolnej litery z zakresu od 0 od 25
+                let przesuniecie = index + shift //tutaj szyfruje np o 3 znak do przodu
+                let modulo = przesuniecie % 26 //zawiniecia ab dla xyz przejsc do poczatku alfabetu
+                let dodajoffset = modulo + offset // powrót do ascii dodajac reszte z dzielenia do poczatku ascii
+                let newChar = String.fromCharCode(dodajoffset); //zamiana z ascii na string
+                result += newChar
+            }else{
+                result += c;
+            }
+        }
+        console.log(result)
+    </script>
+</body>
+</html>
