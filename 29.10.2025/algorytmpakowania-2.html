@@ -1,0 +1,107 @@
+<!-- wygeneruj ze internetu przykladowa liste towarow ktora posiada nazwe cene i wage. ilosc towarow to okolo 50. maxymalny transport w ktorym kurier zabierze elementy to 100 kg. kurier zabierze tylko najbardziej wartosciowe rzeczy. zastosuj algorytm plecakowy, zaprezentuj na stronie -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorytm Pecakowy</title>
+</head>
+<body>
+    
+    <div id="do_pakowania"></div>
+    <div id="wynik"></div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function(){
+            //tworzymy algorytm plecakowy
+
+        const rzeczy_do_pakowania = [   
+            {nazwa:'Smartwatch', cena:300, waga:0.5},
+            {nazwa:'KonsolaDoGier', cena:450, waga:3},
+            {nazwa:'ZestawGłośników', cena:200, waga:4},
+            {nazwa:'AparatFotograficzny', cena:1200, waga:2},
+            {nazwa:'TorbaSkórzana', cena:150, waga:1.2},
+            {nazwa:'OkularyPrzeciwsłoneczne', cena:90, waga:0.2},
+            {nazwa:'DrukarkaLaserowa', cena:350, waga:8},
+            {nazwa:'Monitor27cal', cena:400, waga:5},
+            {nazwa:'BiurkoWalizka', cena:220, waga:10},
+            {nazwa:'KrzesloErgonomiczne', cena:600, waga:15},
+            {nazwa:'SłuchawkiBezprzewodowe', cena:180, waga:0.4},
+            {nazwa:'Tablet10cal', cena:330, waga:0.8},
+            {nazwa:'KameraSportowa', cena:280, waga:0.6},
+            {nazwa:'ZegarekMarkowy', cena:800, waga:0.3},
+            {nazwa:'KonsolaPrzenośna', cena:230, waga:1},
+            {nazwa:'ProjektorLED', cena:550, waga:6},
+            {nazwa:'EkspresKawowy', cena:1000, waga:7},
+            {nazwa:'LodowkaMini', cena:750, waga:12},
+            {nazwa:'DeskaSup', cena: 400, waga:9},
+            {nazwa:'RowerGórski', cena:1500, waga:13},
+            {nazwa:'KaskMotocyklowy', cena:350, waga:3.5},
+            {nazwa:'TorbaPodróżna', cena:130, waga:2},
+            {nazwa:'ButySportowe', cena:220, waga:1.5},
+            {nazwa:'ZestawNożyKuchennych', cena:260, waga:4},
+            {nazwa:'MikserKuchenny', cena:180, waga:3},
+            {nazwa:'PlecakTrekkingowy', cena:140, waga:2.2},
+            {nazwa:'SatelitaTelefoniczna', cena:2000, waga:4.5},
+            {nazwa:'LaptopGamingowy', cena:2400, waga:4},
+            {nazwa:'SmartTV55cal', cena:1100, waga:16},
+            {nazwa:'KonsolaDron', cena:900, waga:2.5},
+            {nazwa:'AkumulatorZapasowy', cena:300, waga:5},
+            {nazwa:'ProjektorHolo', cena:1300, waga:6},
+            {nazwa:'GłośnikSoundbar', cena:450, waga:3.3},
+            {nazwa:'KonsolaVR', cena:550, waga:2.1},
+            {nazwa:'KameraBezpieczeństwa', cena:210, waga:1.1},
+            {nazwa:'ZestawNarzędzi', cena:320, waga:8.5},
+            {nazwa:'Zamrażarka', cena:900, waga:14},
+            {nazwa:'SuszarkaBębnowa', cena:650, waga:10.5},
+            {nazwa:'Kawiarka', cena:170, waga:2.9},
+            {nazwa:'LampaLEDStojąca', cena:120, waga:2},
+            {nazwa:'ZestawSłuchawekStudio', cena:470, waga:1.8},
+            {nazwa:'StolikKawowy', cena:330, waga:9.7},
+            {nazwa:'DywanNowoczesny', cena:280, waga:6.2},
+            {nazwa:'FototapetaXXL', cena:140, waga:3.4},
+            {nazwa:'KonsolaRetro', cena:260, waga:2.6},
+            {nazwa:'Lornetka', cena:210, waga:0.9},
+            {nazwa:'GitarEl', cena:850, waga:4.3},
+            {nazwa:'PerfumMarkowy', cena:380, waga:0.1},
+            {nazwa:'KryształowaWaza', cena:340, waga:4.8},
+            {nazwa:'ZestawGolfowy', cena:1300, waga:11.2}
+        ]
+        
+            //oblicz wartosc na jednostke wagi i posortuj malejaco rzeczy
+        const posortowane_wyliczone = rzeczy_do_pakowania.map((item)=>({
+            ...item, wartoscNaJednostkeWagi: Math.floor(item.cena/item.waga)
+        })).sort((a,b)=>b.wartoscNaJednostkeWagi-a.wartoscNaJednostkeWagi)
+
+
+        const do_pakowania = document.getElementById('do_pakowania');
+
+        posortowane_wyliczone.forEach((el) => {
+            do_pakowania.innerHTML += el.nazwa + ' ' + el.cena + ' ' + el.waga + ' ' + el.wartoscNaJednostkeWagi + '<br>';
+        });
+
+        const max_waga_transportu = 100;
+        let zawartosctransporu = [];
+        let aktualnawaga = 0
+        for(const rzecz of posortowane_wyliczone){
+            if(aktualnawaga + rzecz.waga <= max_waga_transportu){
+                zawartosctransporu.push(rzecz)
+                aktualnawaga += rzecz.waga
+            }
+        }
+
+        
+        const wynik = document.getElementById('wynik');
+        wynik.innerHTML = "<br><strong>Zawartosc Transportu kuriera:</strong><br>"
+        zawartosctransporu.forEach((el) => {
+            wynik.innerHTML += el.nazwa + ' ' + el.cena + ' ' + el.waga + ' ' + el.wartoscNaJednostkeWagi + '<br>';
+        });
+
+
+        })
+    </script>
+
+</body>
+</html>

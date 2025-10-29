@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorytm Pecakowy</title>
+</head>
+<body>
+    
+    <div id="do_pakowania"></div>
+    <div id="wynik"></div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function(){
+            //tworzymy algorytm plecakowy
+
+            const rzeczy_do_pakowania = [
+                {nazwa: 'lusterko', cena: 20, waga: 1, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Skarpety', cena: 50, waga: 1, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Telefon', cena: 250, waga: 1, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Woda', cena: 10, waga: 2, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Nóż', cena: 100, waga: 1, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Laptop', cena: 1500, waga: 5, get wartos(){return this.cena / this.waga}},
+                {nazwa: 'Kompas', cena: 150, waga: 2, get wartos(){return this.cena / this.waga}}
+            ].sort((a,b)=>b.wartos - a.wartos);
+        
+
+        const do_pakowania = document.getElementById('do_pakowania');
+
+        rzeczy_do_pakowania.forEach((el) => {
+            do_pakowania.innerHTML += el.nazwa + ' ' + el.cena + ' ' + el.waga + ' ' + el.wartos + '<br>';
+        });
+
+        const max_waga_plecaka = 10;
+        let zawartoscplecaka = [];
+        let aktualnawaga = 0
+        for(const rzecz of rzeczy_do_pakowania){
+            if(aktualnawaga + rzecz.waga <= max_waga_plecaka){
+                zawartoscplecaka.push(rzecz)
+                aktualnawaga += rzecz.waga
+            }
+        }
+
+        
+        const wynik = document.getElementById('wynik');
+        wynik.innerHTML = "<br><strong>Zawartosc Plecaka:</strong><br>"
+        zawartoscplecaka.forEach((el) => {
+            wynik.innerHTML += el.nazwa + ' ' + el.cena + ' ' + el.waga + ' ' + el.wartos + '<br>';
+        });
+
+        })
+    </script>
+
+</body>
+</html>
