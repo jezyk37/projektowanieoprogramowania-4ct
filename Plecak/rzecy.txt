@@ -1,0 +1,15 @@
+Lampa 2 40
+Książka 1 25
+Rower 10 90
+Kubek 1 10
+Telefon 2 70
+Plecak 3 50
+Zegar 1 30
+Krzesło 5 60
+Monitor 4 80
+Gitara 3 75
+Lornetka 2 55
+Klawiatura 2 45
+Kask 1 35
+Mikser 4 65
+Śrubokręt 1 20

@@ -1,0 +1,14 @@
+C:\Users\programista\Desktop\Pascal\bin\Debug\net8.0\Pascal.exe
+C:\Users\programista\Desktop\Pascal\bin\Debug\net8.0\Pascal.deps.json
+C:\Users\programista\Desktop\Pascal\bin\Debug\net8.0\Pascal.runtimeconfig.json
+C:\Users\programista\Desktop\Pascal\bin\Debug\net8.0\Pascal.dll
+C:\Users\programista\Desktop\Pascal\bin\Debug\net8.0\Pascal.pdb
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.AssemblyInfoInputs.cache
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.AssemblyInfo.cs
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.csproj.CoreCompileInputs.cache
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.dll
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\refint\Pascal.dll
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.pdb
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\Pascal.genruntimeconfig.cache
+C:\Users\programista\Desktop\Pascal\obj\Debug\net8.0\ref\Pascal.dll
