@@ -1,0 +1,20 @@
+T: Testowanie programu w oparciu o: c# NUnit, oraz python unittest
+
+c#: Package: NUnit, Microsoft SDK Test, Nunit Adapter
+------
+1. Konsolowe
+
+dotnet --veriosn
+dotnet new nunit -n Kalkulator
+dotnet new nunit -n Kalkulator.Test
+cd Kalkulator.Test\
+dotnet add package Nunit
+dotnet add package Nunit3TestAdapte
+dotnet add package Microsoft.NET.Test.Sdk
+dotnet add reference ..\Kalkulator\Kalkulator.csproj
+
+Tworzenie testów (VSCODE)
+Po utworzeniu klasy testującej
+cmder: dotnet test(uruchamiamy w miejscu gdzie jest główny Katalog: Projekt a w katalogu "Projekt" mamy np. Katalogi: "Kalkulator" i "Kalkulator.Test"
+
+2. Gui IDE - Microsoft Studio 2022
