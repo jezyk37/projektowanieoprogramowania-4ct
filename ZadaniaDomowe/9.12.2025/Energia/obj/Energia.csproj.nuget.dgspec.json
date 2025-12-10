@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubus\\Desktop\\szkoła\\4CT\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj": {}
+    "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoliński\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubus\\Desktop\\szkoła\\4CT\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj": {
+    "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoliński\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubus\\Desktop\\szkoła\\4CT\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj",
+        "projectUniqueName": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoliński\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj",
         "projectName": "Energia",
-        "projectPath": "C:\\Users\\kubus\\Desktop\\szkoła\\4CT\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj",
-        "packagesPath": "C:\\Users\\kubus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubus\\Desktop\\szkoła\\4CT\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\obj\\",
+        "projectPath": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoliński\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\Energia.csproj",
+        "packagesPath": "C:\\Users\\programista\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoliński\\projektowanieoprogramowania-4ct\\ZadaniaDomowe\\9.12.2025\\Energia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kubus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\programista\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
