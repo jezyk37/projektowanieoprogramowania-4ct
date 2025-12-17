@@ -1,0 +1,15 @@
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.AssemblyInfoInputs.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.AssemblyInfo.cs
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.csproj.CoreCompileInputs.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.sourcelink.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\bin\Debug\net8.0\Testy1.exe
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\bin\Debug\net8.0\Testy1.deps.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\bin\Debug\net8.0\Testy1.runtimeconfig.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\bin\Debug\net8.0\Testy1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\bin\Debug\net8.0\Testy1.pdb
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\refint\Testy1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.pdb
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\Testy1.genruntimeconfig.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\17.12.2025\Testy1\obj\Debug\net8.0\ref\Testy1.dll
