@@ -1,0 +1,7 @@
+<div class="Pola">
+    <h3>{{title}}</h3>
+    <input type="number" #liczba1 placeholder="podaj a">
+    <input type="number" #liczba2 placeholder="podaj h">
+    <button (click)="Pole(+liczba1.value, +liczba2.value)" >Oblicz Pole</button>
+    <p class="wynik">{{Pole(+liczba1.value, +liczba2.value)}}</p>
+</div>

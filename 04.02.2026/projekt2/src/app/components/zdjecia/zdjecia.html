@@ -1,0 +1,24 @@
+<p>Zdjecia kotkow</p>
+
+<img class="kotek" [src]="foto1" [ngClass]="{active1:isActive1, inactive1:!isActive1}" alt="foto1">
+<button (click)="isActive1=!isActive1">Przełącz widocznosc</button>
+<br><br>
+
+<div *ngIf="!isActive2">
+    <img class="kotek" [src]="foto2" alt="foto2">
+</div>
+<button (click)="isActive2=!isActive2">Przełącz widocznosc</button>
+<br><br>
+
+<img class="kotek" [src]="foto3" [ngClass]="{active3:isActive3, inactive3:!isActive3}" alt="foto3">
+<button (click)="isActive3=!isActive3">Przełącz widocznosc</button>
+<br><br>
+
+<img class="kotek" [src]="foto4" [ngStyle]="{filter:isActive4 ? 'contrast(0.5)' : 'contrast(1)'}" alt="foto4">
+<button (click)="isActive4=!isActive4">Przełącz widocznosc</button>
+<br><br>
+
+<img class="kotek" [src]="foto5" [ngClass]="{active5:isActive5, inactive5:!isActive5}" alt="foto5">
+<button (click)="isActive5=!isActive5">Przełącz widocznosc</button>
+
+

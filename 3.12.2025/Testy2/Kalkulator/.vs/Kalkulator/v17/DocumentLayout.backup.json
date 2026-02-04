@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\Testy2\\Kalkulator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CF5BC61-DC4F-4DE2-8C13-46763E6D232E}|..\\Kalkulator.Test\\Kalkulator.Test.csproj|c:\\users\\programista\\desktop\\4ct\\jakubmoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\testy2\\kalkulator.test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9AFA881-8837-4A6D-AF67-CF52DF7D289C}|Kalkulator.csproj|c:\\users\\programista\\desktop\\4ct\\jakubmoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\testy2\\kalkulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9AFA881-8837-4A6D-AF67-CF52DF7D289C}|Kalkulator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +23,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\Testy2\\Kalkulator.Test\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Kalkulator.Test\\Program.cs",
+              "ToolTip": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\Testy2\\Kalkulator.Test\\Program.cs",
+              "RelativeToolTip": "..\\Kalkulator.Test\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T07:32:34.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\Testy2\\Kalkulator\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\3.12.2025\\Testy2\\Kalkulator\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T07:31:14.606Z",
               "EditorCaption": ""

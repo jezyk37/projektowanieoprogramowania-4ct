@@ -1,0 +1,14 @@
+.kotek{
+    width: 200px;
+    height: 200px;
+}
+.active1{
+    width: 400px;
+    height: 400px;
+}
+.active3{
+    filter:invert()
+}
+.active5{
+    filter: blur(40px);
+}

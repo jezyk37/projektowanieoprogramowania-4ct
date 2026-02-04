@@ -1,0 +1,15 @@
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.AssemblyInfoInputs.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.AssemblyInfo.cs
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.csproj.CoreCompileInputs.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.sourcelink.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\bin\Debug\net8.0\zadanie1.exe
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\bin\Debug\net8.0\zadanie1.deps.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\bin\Debug\net8.0\zadanie1.runtimeconfig.json
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\bin\Debug\net8.0\zadanie1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\bin\Debug\net8.0\zadanie1.pdb
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\refint\zadanie1.dll
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.pdb
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\zadanie1.genruntimeconfig.cache
+C:\Users\programista\Desktop\4Ct\JakubMoliński\projektowanieoprogramowania-4ct\07.01.2026\zadanie1\obj\Debug\net8.0\ref\zadanie1.dll

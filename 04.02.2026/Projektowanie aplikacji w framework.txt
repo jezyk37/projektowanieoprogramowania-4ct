@@ -1,0 +1,33 @@
+Projektowanie aplikacji w framework angular - dyrektywy
+[ngClass]
+[ngStyle]
+*ngIf
+
+
+utworz projekt w angular który posiada 5 foto które sterujesz (zmiana-stylu) za pomocą dyrektywy [ngstyle], [ngClass]
+
+<p>dyrektywy</p>
+<div class="box" [ngClass]="{active:isActive, inactive:!isActive}" [ngStyle]="{borderColor:isActive ? 'green' : 'red'}">
+    <div *ngIf="isActive">
+        <p>ten tekst jest widoczny gdy isActive jest prawdziwe</p>
+    </div>
+    <button (click)="isActive=!isActive">Przełącz widocznosc</button>
+</div>
+
+isActive: boolean = false;
+
+.box{
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid;
+}
+.active{
+    background-color: blue;
+    color: antiquewhite;
+}
+.inactive{
+    background-color: rebeccapurple;
+    color: white;
+}

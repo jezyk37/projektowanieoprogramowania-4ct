@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\07.01.2026\\zadanie1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE54327-6998-44BB-9693-848C1D703CF3}|zadanie1.csproj|c:\\users\\programista\\desktop\\4ct\\jakubmoli\u0144ski\\projektowanieoprogramowania-4ct\\07.01.2026\\zadanie1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE54327-6998-44BB-9693-848C1D703CF3}|zadanie1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\07.01.2026\\zadanie1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\programista\\Desktop\\4Ct\\JakubMoli\u0144ski\\projektowanieoprogramowania-4ct\\07.01.2026\\zadanie1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:28:45.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
